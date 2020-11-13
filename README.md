@@ -1,5 +1,15 @@
 ### 本demo主要提供如何在构建是自动检测循环依赖的能力
 
+>chameleon-tool@1.0.8 默认支持,如果不需要刻意配置删除
+
+```javascript
+optimize: {
+  circularDependency: true// 默认引入自动检测循环引用的插件
+}
+```
+
+>chameleon-tool@1.0.8之前的版本，需要进行如下操作
+
 ```
 npm i circular-dependency-plugin@4 -D
 ```
